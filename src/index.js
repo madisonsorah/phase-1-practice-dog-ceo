@@ -7,7 +7,7 @@ function initialize() {
     fetchAllDogs();
     filterBreeds();
 }
-// Step 1
+// Step 1 
 // Fetch images using random/4 URL
 // Parse response into JSON
 
@@ -86,16 +86,6 @@ function replaceSelect(parent) {
         parent.appendChild(option);
     });
 };
-
-
-
-// function removeAllChildNodes(parent) {
-//     while (parent.firstChild) {
-//         parent.removeChild(parent.firstChild);
-//     }
-// }
-// removeAllChildNodes(dropDown);
-
 
 // Step 3
 // Once all of the breeds are rendered in the `<ul>`, add JavaScript so that, when
